@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Conta"
             android:textColor="@android:color/white"
             android:textSize="24dp" />
@@ -75,7 +75,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Seu Canal"
             android:textColor="@android:color/white"
             android:textSize="18sp"
@@ -195,7 +195,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Meu canal"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -209,7 +209,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Tempo de visualização"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -223,7 +223,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Tenha acesso ao Youtube Premium"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -237,7 +237,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Assinaturas"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -251,7 +251,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Alternar Conta"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -265,7 +265,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Ativar modo de navegação anônima"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -337,7 +337,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Configurações"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -351,7 +351,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Termos e política de privacidade"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
@@ -365,7 +365,7 @@
             android:layout_gravity="left"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/proza_libre"
+            android:fontFamily="sans-serif"
             android:text="Ajuda e Feedback"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
