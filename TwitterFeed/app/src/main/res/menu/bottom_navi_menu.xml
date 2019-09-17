@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:iconTintMode="screen"
+        />
+
+    <item
+        android:id="@+id/itemSearch"
+        android:title="Pesquisar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:iconTintMode="screen"
+        />
+    <item
+        android:id="@+id/itemNotificacao"
+        android:title="Notificações"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="always"
+        android:iconTintMode="screen"
+        />
+    <item
+        android:id="@+id/itemMensagem"
+        android:title="Mensagens"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="always"
+        android:iconTintMode="screen"
+        />
+
+</menu>

@@ -1,10 +1,13 @@
 package br.com.rodrigo.twitterfeed;
 
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.MenuItem;
 import android.widget.LinearLayout;
 
 import java.util.ArrayList;
@@ -15,11 +18,39 @@ import br.com.rodrigo.twitterfeed.Model.Feed;
 public class MainActivity extends AppCompatActivity {
     private ArrayList<Feed> feedArrayList = new ArrayList<>();
     private FeedAdapter feedAdapter;
+    private BottomNavigationView navView;
+
+
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.itemHome:
+                    return true;
+
+                case R.id.itemSearch:
+                    return true;
+
+                case R.id.itemNotificacao:
+                    return true;
+
+                case R.id.itemMensagem:
+                    return true;
+
+            }
+            return false;
+        }
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        navView = findViewById(R.id.bottomNavigationView);
+        navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         RecyclerView recyclerView = findViewById(R.id.recycleViewMain);
         DividerItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
